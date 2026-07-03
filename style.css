@@ -177,6 +177,14 @@ h2 {
 
 .project:hover { opacity: 0.6; }
 
+.project-empty {
+  cursor: default;
+}
+
+.project-empty:hover { opacity: 1; }
+
+.project-empty h3 { color: var(--muted); font-weight: 400; }
+
 .project-text h3 {
   font-size: 1.15rem;
   margin-bottom: 0.35rem;
