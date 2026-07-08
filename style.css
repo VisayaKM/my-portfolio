@@ -43,7 +43,6 @@ hr {
   padding: 3rem 1.5rem 4rem;
 }
 
-/* Header */
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -94,7 +93,6 @@ hr {
   width: 100%;
 }
 
-/* Hero */
 .hero {
   display: flex;
   justify-content: space-between;
@@ -152,7 +150,6 @@ hr {
   display: inline-block;
 }
 
-/* About */
 h2 {
   font-size: 1.5rem;
   margin-bottom: 1.5rem;
@@ -181,7 +178,6 @@ h2 {
 .facts dt { color: var(--muted); }
 .facts dd { font-weight: 500; }
 
-/* Work */
 .project {
   display: flex;
   justify-content: space-between;
@@ -233,7 +229,6 @@ h2 {
   flex-shrink: 0;
 }
 
-/* Skills */
 .skills-list {
   list-style: none;
   display: flex;
@@ -249,7 +244,6 @@ h2 {
   color: var(--ink);
 }
 
-/* Contact */
 .contact p {
   color: var(--muted);
   max-width: 46ch;
@@ -275,7 +269,6 @@ h2 {
 
 .social a:hover { color: var(--ink); }
 
-/* Footer */
 .site-footer {
   margin-top: 4rem;
   padding-top: 1.5rem;
@@ -286,7 +279,6 @@ h2 {
   color: var(--muted);
 }
 
-/* Responsive */
 @media (max-width: 600px) {
   .hero h1 { font-size: 2.2rem; }
   .hero { flex-direction: column-reverse; align-items: flex-start; gap: 1.5rem; }
@@ -297,13 +289,11 @@ h2 {
   .nav { gap: 1rem; font-size: 0.85rem; }
 }
 
-/* Reduced motion */
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition: none !important; }
 }
 
-/* Focus visibility */
 a:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 3px;
